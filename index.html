@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me | My Colourful World</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* SECTION */
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+section h2 {
+    color: #8e44ad;
+    font-size: 1.6rem;
+    border-bottom: 3px solid #8e44ad;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text {
+    flex: 1 1 300px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* IMAGES */
+.content img {
+    width: 200px;
+    height: 140px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 4px solid #ff69b4;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.content img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4), 0 0 15px #ff69b4;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* HIGHLIGHT */
+.highlight {
+    color: #e84393;
+    font-weight: bold;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 Welcome to My Colourful World🌸</h1>
+    <p>Writer | Dreamer | Learner | Creator</p>
+</header>
+
+<!-- HOBBIES -->
+<section>
+    <h2>🎨 My Hobbies</h2>
+    <div class="content">
+        <div class="text">
+            I love expressing myself through hobbies.  
+            <span class="highlight">Drawing</span>, 
+            <span class="highlight">writing</span>, 
+            <span class="highlight">coding</span> and 
+            <span class="highlight">singing</span> make me happy 💖
+        </div>
+        <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f">
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4">
+    </div>
+</section>
+
+<!-- FAST FOOD -->
+<section>
+    <h2>😋 Favourite Fast Food</h2>
+    <div class="content">
+        <div class="text">
+            My favourite is <span class="highlight">Pani Puri</span> 😍
+        </div>
+        <img src="/pani puri.jpg">
+        <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46">
+    </div>
+</section>
+
+<!-- JUNK FOOD -->
+<section>
+    <h2>🍫 Favourite Junk Food</h2>
+    <div class="content">
+        <div class="text">
+            I love <span class="highlight">chocolates, chips & cake</span> 🍰
+        </div>
+        <img src="/chocolate.jpg">
+        <img src="/chips.jpg">
+        <img src="/cakes.jpg">
+    </div>
+</section>
+
+<!-- SONG -->
+<section>
+    <h2>🎵 Favourite Song</h2>
+    <div class="content">
+        <div class="text">
+            "Moral of the Story" 🎧
+        </div>
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d">
+    </div>
+</section>
+
+<!-- SUBJECT -->
+<section>
+    <h2>📘 Favourite Subject</h2>
+    <div class="content">
+        <div class="text">
+            <span class="highlight">Maths</span> 🧮
+        </div>
+        <img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d">
+    </div>
+</section>
+
+<!-- FESTIVAL -->
+<section>
+    <h2>🪔 Favourite Festival</h2>
+    <div class="content">
+        <div class="text">
+            <span class="highlight">Navratri</span> 💃
+        </div>
+        <img src="/navratri.jpg">
+    </div>
+</section>
+
+<!-- COLOUR -->
+<section>
+    <h2>🎨 Favourite Colours</h2>
+    <div class="content">
+        <div class="text">
+            <span class="highlight">Black & White</span> 🖤🤍
+        </div>
+        <img src="/colour.jpg">
+    </div>
+</section>
+
+<!-- SCHOOL -->
+<section>
+    <h2>🏫 My School</h2>
+    <div class="content">
+        <div class="text">
+            I study at <span class="highlight">Pride International School</span> 📚
+        </div>
+        <a href="https://www.pisnke.com/">
+        <img src="/images (6).jpeg">
+    </a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>📞 Contact Me</h2>
+    <div class="content">
+        <div class="text">
+            📧 Email: ---  
+            <br>📱 Phone: ---  
+            <br>📍 India
+        </div>
+        <img src="/contact.jpg">
+    </div>
+</section>
+
+<footer>
+    🌟 Thank you for visiting 🌟  
+    <br>Made by Jeny Tiwari ❤️
+</footer>
+
+</body>
+</html>
